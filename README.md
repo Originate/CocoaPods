@@ -5,7 +5,7 @@ This is Originate's internal CocoaPods spec repo. For the time being, the actual
 
 ## How to use?
 
-In your project's Podfile, add a new section:
+In your project's Podfile, add a new source:
 
 ```ruby
 source 'https://github.com/Originate/cocoapods.git'
