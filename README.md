@@ -14,6 +14,7 @@ And specify the desired CocoaPods spec.
 
 ```ruby
 pod 'Originate+AutoLayout'
+pod 'Originate+HTTP'
 pod 'Originate+ScrollViewFloater'
 ```
 
@@ -21,4 +22,5 @@ pod 'Originate+ScrollViewFloater'
 ## Available Pods
 
 * [Originate+AutoLayout](https://github.com/Originate/AutoLayout-Categories)
+* [Originate+HTTP](https://github.com/Originate/OriginateHTTP)
 * [Originate+ScrollViewFloater](https://github.com/Originate/OriginateScrollViewFloater)
