@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version             = "0.0.1"
   s.summary             = "A lightweight user interface theming framework."
 
-  s.homepage            = "https://github.com/Originate/OriginateHTTP"
+  s.homepage            = "https://github.com/Originate/OriginateUI"
   s.license             = 'MIT'
   s.author              = { "Philip Kluz" => "philip.kluz@originate.com" }
   s.source              = { :git => "https://github.com/Originate/OriginateUI.git", :tag => s.version.to_s }
