@@ -16,7 +16,7 @@ And specify the desired CocoaPods spec.
 pod 'Originate+AutoLayout'
 pod 'Originate+HTTP'
 pod 'Originate+ScrollViewFloater'
-pof 'OriginateUI'
+pod 'OriginateUI'
 ```
 
 
