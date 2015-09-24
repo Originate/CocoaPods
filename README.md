@@ -13,7 +13,7 @@ source 'https://github.com/Originate/CocoaPods.git'
 And specify the desired CocoaPods spec.
 
 ```ruby
-pod 'Originate+AutoLayout'
+pod 'OriginateAutoLayout'
 pod 'Originate+HTTP'
 pod 'Originate+ScrollViewFloater'
 pod 'OriginateUI'
@@ -22,7 +22,7 @@ pod 'OriginateUI'
 
 ## Available Pods
 
-* [Originate+AutoLayout](https://github.com/Originate/AutoLayout-Categories)
+* [OriginateAutoLayout](https://github.com/Originate/OriginateAutoLayout)
 * [Originate+HTTP](https://github.com/Originate/OriginateHTTP)
 * [Originate+ScrollViewFloater](https://github.com/Originate/OriginateScrollViewFloater)
 * [OriginateUI](https://github.com/Originate/OriginateUI)
