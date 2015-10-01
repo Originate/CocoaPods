@@ -13,6 +13,7 @@ source 'https://github.com/Originate/CocoaPods.git'
 And specify the desired CocoaPods spec.
 
 ```ruby
+pod 'OriginateAsyncCollection'
 pod 'OriginateAutoLayout'
 pod 'OriginateHTTP'
 pod 'OriginateScrollViewFloater'
@@ -52,6 +53,7 @@ The pod repos must have a git tag corresponding to the version specified in the 
 
 ## Available pods
 
+* [OriginateAsyncCollection](https://github.com/Originate/OriginateAsyncCollection)
 * [OriginateAutoLayout](https://github.com/Originate/OriginateAutoLayout)
 * [OriginateHTTP](https://github.com/Originate/OriginateHTTP)
 * [OriginateScrollViewFloater](https://github.com/Originate/OriginateScrollViewFloater)
