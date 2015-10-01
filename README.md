@@ -17,6 +17,7 @@ pod 'OriginateAutoLayout'
 pod 'OriginateHTTP'
 pod 'OriginateScrollViewFloater'
 pod 'OriginateUI'
+pod 'OriginateAsyncCollection'
 ```
 
 
@@ -56,3 +57,4 @@ The pod repos must have a git tag corresponding to the version specified in the 
 * [OriginateHTTP](https://github.com/Originate/OriginateHTTP)
 * [OriginateScrollViewFloater](https://github.com/Originate/OriginateScrollViewFloater)
 * [OriginateUI](https://github.com/Originate/OriginateUI)
+* [OriginateAsyncCollection](https://github.com/Originate/OriginateAsyncCollection)
