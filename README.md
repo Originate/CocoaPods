@@ -25,10 +25,10 @@ pod 'OriginateUI'
 
 Read the [Making a CocoaPod](https://guides.cocoapods.org/making/making-a-cocoapod.html) guide.
 
-Assuming that a pod repository already exists...
+Assuming that a pod repository already exists:
 
 ```
-$ pod lib create <OriginateNewPodName>
+$ pod lib create OriginateNewPodName
 $ ... setup pod repository ...
 $ ... push up to remote repo ...
 ```
@@ -37,16 +37,16 @@ Each pod should have the following folder structure within this repository ([Ori
 
 ```
 .
-├── OriginateNewPodName
-│   ├── 0.0.1
+├── OriginateNewPodName/
+│   ├── 0.0.1/
 │   │   └── OriginateNewPodName.podspec
-│   ├── 0.0.2
+│   ├── 0.0.2/
 │   │   └── OriginateNewPodName.podspec
 │   └── ...
 ...
 ```
   
-Each version of the pod has its own subfolder and its own .podspec file. Ensure that the .podspec files have the correct versions assigned to `s.version`.
+Each version of the pod has its own subfolder and its own .podspec file. Ensure that the .podspec files have the correct versions assigned (`s.version`) and are pointing to the correct pod repository (`s.source`). Adjust other fields in the [.podspec](http://guides.cocoapods.org/syntax/podspec.html) as necessary.
 
 The pod repos must have a git tag corresponding to the version specified in the Podfile.
 
