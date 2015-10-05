@@ -13,9 +13,9 @@ source 'https://github.com/Originate/CocoaPods.git'
 And specify the desired CocoaPods spec.
 
 ```ruby
-pod 'OriginateAsyncCollection'
 pod 'OriginateAutoLayout'
 pod 'OriginateHTTP'
+pod 'OriginateRemoteCollection'
 pod 'OriginateScrollViewFloater'
 pod 'OriginateUI'
 ```
@@ -45,7 +45,7 @@ Each pod should have the following folder structure within this repository ([Ori
 │   └── ...
 ...
 ```
-  
+
 Each version of the pod has its own subfolder and its own .podspec file. Ensure that the .podspec files have the correct versions assigned (`s.version`) and are pointing to the correct pod repository (`s.source`). Adjust other fields in the [.podspec](http://guides.cocoapods.org/syntax/podspec.html) as necessary.
 
 The pod repos must have a git tag corresponding to the version specified in the Podfile.
@@ -53,8 +53,8 @@ The pod repos must have a git tag corresponding to the version specified in the 
 
 ## Available pods
 
-* [OriginateAsyncCollection](https://github.com/Originate/OriginateAsyncCollection)
 * [OriginateAutoLayout](https://github.com/Originate/OriginateAutoLayout)
 * [OriginateHTTP](https://github.com/Originate/OriginateHTTP)
+* [OriginateRemoteCollection](https://github.com/Originate/OriginateRemoteCollection)
 * [OriginateScrollViewFloater](https://github.com/Originate/OriginateScrollViewFloater)
 * [OriginateUI](https://github.com/Originate/OriginateUI)
