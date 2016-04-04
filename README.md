@@ -13,6 +13,7 @@ source 'https://github.com/Originate/CocoaPods.git'
 And specify the desired CocoaPods spec.
 
 ```ruby
+pod 'OriginateActionSheet'
 pod 'OriginateAutoLayout'
 pod 'OriginateHTTP'
 pod 'OriginateRemoteCollection'
@@ -54,6 +55,7 @@ The pod repos must have a git tag corresponding to the version specified in the 
 
 ## Available pods
 
+* [OriginateActionSheet](https://github.com/Originate/OriginateActionSheet)
 * [OriginateAutoLayout](https://github.com/Originate/OriginateAutoLayout)
 * [OriginateHTTP](https://github.com/Originate/OriginateHTTP)
 * [OriginateRemoteCollection](https://github.com/Originate/OriginateRemoteCollection)
